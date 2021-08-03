@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <script>
+        //Algoritmos y estructura de datos
+    {   
+        //Parte 1
+        let arr = [ 'a', 10, 'b', 'hola', 122, 15] ;
+        let numarr = arr.filter(Number) ; //b
+        
+        let strarr = arr.filter(Callback) //a
+        function Callback(value) {
+            if (typeof value == 'number') {
+        return false;
+        }
+        return value
+        }
+       
+        let masgrande = Math.max(...numarr) //c
+        console.log(numarr) ;
+        console.log(strarr) ;
+        console.log(masgrande) ;
+    }
+        //Parte 2
+{
+        let arr = [ 1, 11, 'a', 'b', 123] ;
+        let a = 10
+        function aparece () {
+            let mensaje = 'No está' ;
+            for (let item of arr) {
+                if (item == a) {
+                     mensaje = 'está' ;
+                } 
+            return mensaje    
+
+            }
+        }
+        console.log (aparece()) ;
+    }
+    </script>
+</body>
+</html>
